@@ -1,0 +1,19 @@
+{
+    "authors": [
+        {
+            "name": "Codexpert",
+            "email": "hello@codexpert.io"
+        }
+    ],
+    "require": {
+        "codexpert/plugin": "dev-master",
+        "mukto90/ncrypt": "dev-master",
+        "pluggable/marketing": "dev-master",
+        "pluggable/plugin": "0.98.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codexpert\\WC_Affiliate\\" : "src/"
+        }
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "packages": [
+        {
+            "name": "codexpert/plugin",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/codexpertio/codexpert-plugin.git",
+                "reference": "fe4285503ecceb74468118ad71390aeea803e6b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/codexpertio/codexpert-plugin/get/fe4285503ecceb74468118ad71390aeea803e6b9.zip",
+                "reference": "fe4285503ecceb74468118ad71390aeea803e6b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2023-10-17T05:55:37+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Codexpert",
+                    "email": "hello@codexpert.io",
+                    "homepage": "https://codexpert.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Plugin tools for Codexpert",
+            "homepage": "https://bitbucket.org/codexpertio/codexpert-plugin",
+            "keywords": [
+                "codexpert",
+                "plugin"
+            ],
+            "support": {
+                "source": "https://bitbucket.org/codexpertio/codexpert-plugin/src/fe4285503ecceb74468118ad71390aeea803e6b9/?at=master"
+            },
+            "install-path": "../codexpert/plugin"
+        },
+        {
+            "name": "mukto90/ncrypt",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mukto90/ncrypt.git",
+                "reference": "c66236716492796fcc7c28e07a5e7752daeb9225"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mukto90/ncrypt/zipball/c66236716492796fcc7c28e07a5e7752daeb9225",
+                "reference": "c66236716492796fcc7c28e07a5e7752daeb9225",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2018-05-15T06:37:54+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nazmul Ahsan",
+                    "email": "n.mukto@gmail.com",
+                    "homepage": "https://nazmulahsan.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple PHP class to encrypt a string and decrypt an encrypted string",
+            "homepage": "https://github.com/mukto90/ncrypt",
+            "keywords": [
+                "2 way encryption and decryption",
+                "decryption",
+                "encryption",
+                "encryption and decryption"
+            ],
+            "support": {
+                "issues": "https://github.com/mukto90/ncrypt/issues",
+                "source": "https://github.com/mukto90/ncrypt/tree/v1.0"
+            },
+            "install-path": "../mukto90/ncrypt"
+        },
+        {
+            "name": "pluggable/marketing",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/pluggableio/marketing.git",
+                "reference": "aea9b064c787bf4e8c0c874219e110027bfb2970"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/pluggableio/marketing/get/aea9b064c787bf4e8c0c874219e110027bfb2970.zip",
+                "reference": "aea9b064c787bf4e8c0c874219e110027bfb2970",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "time": "2023-10-03T06:55:59+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pluggable",
+                    "email": "hi@pluggable.io",
+                    "homepage": "https://pluggable.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Marketing toolkit for Pluggable plugins",
+            "homepage": "https://bitbucket.org/pluggableio/marketing/",
+            "keywords": [
+                "marketing",
+                "pluggable"
+            ],
+            "support": {
+                "source": "https://bitbucket.org/pluggableio/marketing/src/aea9b064c787bf4e8c0c874219e110027bfb2970/?at=master"
+            },
+            "install-path": "../pluggable/marketing"
+        },
+        {
+            "name": "pluggable/plugin",
+            "version": "0.98.1",
+            "version_normalized": "0.98.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/pluggableio/plugin.git",
+                "reference": "d156ae625e596e2877fc941ba9a7b21826a6a383"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/pluggableio/plugin/get/d156ae625e596e2877fc941ba9a7b21826a6a383.zip",
+                "reference": "d156ae625e596e2877fc941ba9a7b21826a6a383",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "time": "2023-05-22T02:55:22+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pluggable",
+                    "email": "hi@pluggable.io",
+                    "homepage": "https://pluggable.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "License management toolkit for Pluggable plugins",
+            "homepage": "https://bitbucket.org/pluggableio/plugin/",
+            "keywords": [
+                "pluggable",
+                "plugin"
+            ],
+            "support": {
+                "source": "https://bitbucket.org/pluggableio/plugin/src/d156ae625e596e2877fc941ba9a7b21826a6a383/?at=0.98.1"
+            },
+            "install-path": "../pluggable/plugin"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

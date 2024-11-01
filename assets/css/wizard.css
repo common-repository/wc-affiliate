@@ -1,0 +1,29 @@
+.cx-wizard-progress-bar .step .bullet::after {
+	right: -198px !important;
+	width: 198px !important;
+}
+.wc-affiliate-sw-panel {
+	display: grid;
+	grid-template-columns: 30% auto;
+	text-align: left;
+	align-items: center;
+	margin-bottom: 20px;
+	column-gap: 10px;
+}
+.wc-affiliate-sw-panel.wc-affiliate-sw-dashboard-create-new {
+	grid-template-columns: 30% min-content;
+}
+.wc-affiliate-sw-panel.wc-affiliate-sw-enable-discount {
+	grid-template-columns: 30% min-content;
+}
+.wc-affiliate-sw-panel.wc-affiliate-sw-cookie-expiry-time {
+	grid-template-columns: 30% auto auto;
+}
+.wc-affiliate-sw-panel.wc-affiliate-sw-dashboard {
+	grid-template-columns: 30% 45% auto;
+}
+.wc-affiliate-sw-panel .wca-rf-field-desc {
+	grid-column-end: 3;
+	font-size: 12px;
+	margin: 0;
+}

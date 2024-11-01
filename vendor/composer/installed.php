@@ -1,0 +1,65 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'c459bd2362f67ff5c3f3f8527c465d3018394a41',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'c459bd2362f67ff5c3f3f8527c465d3018394a41',
+            'dev_requirement' => false,
+        ),
+        'codexpert/plugin' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../codexpert/plugin',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'fe4285503ecceb74468118ad71390aeea803e6b9',
+            'dev_requirement' => false,
+        ),
+        'mukto90/ncrypt' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mukto90/ncrypt',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'c66236716492796fcc7c28e07a5e7752daeb9225',
+            'dev_requirement' => false,
+        ),
+        'pluggable/marketing' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../pluggable/marketing',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'aea9b064c787bf4e8c0c874219e110027bfb2970',
+            'dev_requirement' => false,
+        ),
+        'pluggable/plugin' => array(
+            'pretty_version' => '0.98.1',
+            'version' => '0.98.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../pluggable/plugin',
+            'aliases' => array(),
+            'reference' => 'd156ae625e596e2877fc941ba9a7b21826a6a383',
+            'dev_requirement' => false,
+        ),
+    ),
+);
